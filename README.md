@@ -53,6 +53,6 @@ Some of the used libraries are released under different licenses.
 
 ## Ta-Ta 👋🏻
 
-**Don't forget to follow our [GitHub](https://github.com/SoftBahi) and [Facebook](https://facebook.com/softbahi)**
+**Don't forget to give star our repo and follow our [GitHub](https://github.com/SoftBahi) and [Facebook](https://facebook.com/softbahi)**
 
 **See you in next _Project_.**
