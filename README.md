@@ -1,6 +1,9 @@
 # ClearNet ![Build status](https://img.shields.io/badge/ClearNet%20Beta-18.04.23-2ea44f?style=for-the-badge)
-<img src="/.assets/ic_launcher.png" align="left"
-width="200" hspace="15" vspace="15">**ClearNet is an app that protects users from phishing attacks by identifying and blocking suspicious URLs. It uses advanced algorithms to analyze URLs in real-time and secure browsing mode to enhance online security. ClearNet is a must-have for anyone who wants to browse the internet with peace of mind, Use ClearNet to stay safe and secure online.**
+<img src="/.assets/ic_launcher.png" align="center"
+width="200" hspace="15" vspace="15">
+
+
+**ClearNet is an app that protects users from phishing attacks by identifying and blocking suspicious URLs. It uses advanced algorithms to analyze URLs in real-time and secure browsing mode to enhance online security. ClearNet is a must-have for anyone who wants to browse the internet with peace of mind, Use ClearNet to stay safe and secure online.**
 
 **ClearNet is available on the [ClearNet](https://clearnet.softbahi.xyz), [GITHUB](https://github.com/SoftBahi/ClearNet)</img>**
 <br>
