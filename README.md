@@ -5,7 +5,7 @@ width="200" hspace="15" vspace="15">**ClearNet is an app that protects users fro
 **ClearNet is available on the [ClearNet](https://clearnet.softbahi.xyz), [GITHUB](https://github.com/SoftBahi/ClearNet)</img>**
 <br>
 <p align="left">
-<a href="https://github.com/SoftBahi/ClearNet/releases/tag/null">
+<a href="https://github.com/SoftBahi/ClearNet/releases/tag/ClearNet_V_B-18.04.23">
     <img alt="Get it on GITHUB"
     height="80"
     src="/.assets/download_github.png" />
