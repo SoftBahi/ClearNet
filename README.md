@@ -37,7 +37,13 @@ width="200" hspace="15" vspace="15">
 
 ## Screenshots 😋
 
-- Wait until update.
+[<img src="/.assets/ss1.jpg" align="left"
+width="200"
+    hspace="10" vspace="10">](/.assets/ss1.jpg)
+    
+[<img src="/.assets/ss2.jpg" align="center"
+width="200"
+    hspace="10" vspace="10">](/.assets/ss2.jpg)
 
 
 ## License 😷
