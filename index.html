@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>ClearNet</title>
+		<meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+        <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <style>
+       html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #212121;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+}
+
+a {
+  font-size: 2em;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: bold;
+  font-family: 'Space Mono', monospace;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+               0px 8px 13px rgba(0,0,0,0.1),
+               0px 18px 23px rgba(0,0,0,0.1);
+  margin: 0;
+}
+
+h3 {
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+               0px 8px 13px rgba(0,0,0,0.1),
+               0px 18px 23px rgba(0,0,0,0.1);
+  margin: 5%;
+
+}
+
+#content{
+	text-align:center;
+	padding-top: 15%;
+
+}
+hr{
+/* a horizontal rule can really help organize and 'clean up' landing pages... */
+	visibility:hidden;
+	width: 400px;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+.btn-default{
+	font-family: 'Space Mono', monospace;
+}
+
+.navbar-default {
+	background: transparent;
+}
+
+#wrap {
+    margin: 20px auto;
+    text-align: center;
+}
+.btn-slide, .btn-slide2 {
+    position: relative;
+    display: inline-block;
+    height: 50px;
+    width: 200px;
+    line-height: 50px;
+    padding: 0;
+    border-radius: 50px;
+    background: #fdfdfd;
+    border: 2px solid #0099cc;
+    margin: 10px;
+    transition: .5s;
+}
+.container{
+  position: center;
+}
+.btn-slide2 {
+    border: 2px solid #efa666;
+}
+.btn-slide:hover {
+    background-color: #0099cc;
+}
+.btn-slide2:hover {
+    background-color: #efa666;
+}
+.btn-slide:hover {
+    background-color: #0099cc;
+}
+.btn-slide2:hover {
+    background-color: #efa666;
+}
+.btn-slide:hover span.circle, .btn-slide2:hover span.circle2 {
+    left: 100%;
+    margin-left: -45px;
+    background-color: #fdfdfd;
+    color: #0099cc;
+}
+.btn-slide2:hover span.circle2 {
+    color: #efa666;
+}
+.btn-slide:hover span.title, .btn-slide2:hover span.title2 {
+    left: 40px;
+    opacity: 0;
+}
+.btn-slide:hover span.title-hover, .btn-slide2:hover span.title-hover2 {
+    opacity: 1;
+    left: 40px;
+}
+
+.btn-slide span.circle, .btn-slide2 span.circle2 {
+    display: block;
+    background-color: #0099cc;
+    color: #fff;
+    position: absolute;
+    float: left;
+    margin: 5px;
+    line-height: 42px;
+    height: 40px;
+    width: 40px;
+    top: 0;
+    left: 0;
+    transition: .5s;
+    border-radius: 50%;
+}
+.btn-slide2 span.circle2 {
+    background-color: #efa666;
+}
+.btn-slide span.title,
+  .btn-slide span.title-hover, .btn-slide2 span.title2,
+  .btn-slide2 span.title-hover2 {
+    position: absolute;
+    left: 90px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: bold;
+    color: #30abd5;
+    transition: .5s;
+}
+.btn-slide2 span.title2,
+  .btn-slide2 span.title-hover2 {
+    color: #efa666;
+    left: 80px;
+  }
+  .btn-slide span.title-hover, .btn-slide2 span.title-hover2 {
+    left: 80px;
+    opacity: 0;
+}
+.btn-slide span.title-hover, .btn-slide2 span.title-hover2 {
+    color: #fff;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #263238;
+    text-align: center;
+    color: #f4f4f4;
+}
+.icons{
+    padding-top: 1rem;
+}
+.icons a{
+    text-decoration: none;
+    font-size: 3rem;
+    margin: 0.5rem;
+    color: #f4f4f4;
+}
+.company-name{
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+@media (max-width: 500px){
+    html{
+        font-size: 50%;
+    }
+}    
+@media(min-width: 501px) and (max-width: 768px){
+    html{
+    font-size: 50%;
+    }
+}    
+</style>
+</head>
+    <body>
+</nav>
+<div class="container">
+	<div class="row">
+		<div class="col-lg-12">
+			<div id="content">
+			  <a>LOGO</a>
+				<h1>ClearNet</h1>
+				<h3>ClearNet is an app that helps you check if a link is a phishing link or not. It does this by checking the link against a database of known phishing links, and also checking the website's SSL certificate. If the link is a phishing link, the app will warn you so that you can avoid clicking on it.</h3>
+				<hr/>
+				<div id="wrap">
+<a href="#" class="btn-slide2">
+  <span class="circle2"><i class="fa fa-download"></i></span>
+  <span class="title2">Download</span>
+  <span class="title-hover2">Click here</span>
+</a>
+</div>
+			</div>
+		</div>
+	</div>
+</div>
+<footer class="footer">
+        <div class="icons">
+           <a href="#"><i class="fab fa-facebook"></i></a>
+           <a href="#"><i class="fab fa-instagram"></i></a>
+           <a href="#"><i class="fab fa-github"></i></a>
+            <p class="company-name">
+                 &copy;Copyright SoftBahi, ALL Rights Reserved 2023
+            </p>
+            <p>Version : Beta 18.04.23</p>
+        </div>
+    </footer>
+</body>
+<script>
+</script>
+</html>
