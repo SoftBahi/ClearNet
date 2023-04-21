@@ -55,7 +55,7 @@ Some of the used libraries are released under different licenses.
 
 - [ ] [FACEBOOK](https://facebook.com/SoftBahi)
 - [ ] [WEBSITE](https://softbahi.xyz)
-- [ ] [EMAIL](clearnet@softbahi.xyz)
+- [ ] [EMAIL](mailto:clearnet@softbahi.xyz)
 
 ## Ta-Ta 👋🏻
 
